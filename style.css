@@ -1,0 +1,35 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    -webkit-font-smotthing:antialiased;
+    -moz-osx-font-smoothing:grayscale;
+}
+
+:root {
+    font-size: 62.5%;
+}
+
+body {
+    font-size:1.6rem;
+}
+
+#app > * {
+    border: 1px solid red;
+}
+
+#app {
+    display:grid;
+    height:100vh;
+    grid-template-rows: max-content 1fr max-content;
+}
+
+.container {
+ padding: 1.6rem 3.2rem;
+ width: min(112rem, 100%);
+ margin: 0 auto;
+}
+
+
+
+
